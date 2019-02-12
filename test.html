@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</head>
+<body>
+	<h1>Hello Issues</h1>
+	<form id = "myForm">
+		<input type="submit" id="show" value="sayHello">
+
+	</form>
+	<script type="text/javascript">
+		$(document).ready(function(){ 
+    $("#myForm").submit(function(event){ 
+        alert("I was called");
+        event.preventDefault(); 
+
+        console.log("Duke was here");
+    }); 
+});
+	</script>
+
+</body>
+</html>

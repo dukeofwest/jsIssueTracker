@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+body{
+  background-image: url("https://wallpaperscraft.com/image/lion_mane_muzzle_black_white_wind_field_40126_1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+  
+  font-weight:400;
+  
+}
+h1 {
+	font-family: 'Cinzel', serif;
+	text-align: center;
+	color: black;
+}
